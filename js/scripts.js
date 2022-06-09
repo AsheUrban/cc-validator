@@ -1,0 +1,27 @@
+
+// Business Logic
+
+function subtract(number1, number2) {
+	return number1 - number2; 
+}
+
+function multiply(number1, number2) {
+	return number1 * number2; 
+}
+
+
+function ccValidator(ccNum) {
+  let creditCard = ccNum.split(" ");
+  const creditCardNum = parseInt(creditCard);
+  let doubledNumbers = [];
+  for (let index = 0; index <= creditCardNum.length; index +=2) {
+    doubledNumbers.push(creditCardNum[index] * 2);
+  }
+}
+
+// let total = 0;
+// const summands = [1, 2, 3, 4, 5];
+// for (let index = 0; index < summands.length; index += 1) {
+//   total += summands[index];
+// }
+// total;

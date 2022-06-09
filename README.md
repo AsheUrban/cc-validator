@@ -15,7 +15,9 @@
 
 ## Description
 
-_text_
+_See Credit Card Validator Practice_
+
+_Link to Lesson: https://www.learnhowtoprogram.com/introduction-to-programming/arrays-and-looping/practice-credit-card-validator-roman-numerals-or-cryptosquare_
 
 ## Tests
 # _Describe:_

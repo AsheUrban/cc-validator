@@ -15,15 +15,14 @@
 
 ## Description
 
-text
+_text_
 
 ## Tests
-# _Describe: _
+# _Describe:_
 
-Test: "It should double every other digit in a string of numbers, from right to left."
-Code:
-
-Expected output: 
+_Test: "It should double every other digit in a string of numbers, from right to left."_
+_Code:_
+_Expected output:_ 
 
 ## Setup/Installation Requirements
 
@@ -33,7 +32,7 @@ Expected output:
 
 ## Known Bugs
 
-* text
+* WIP still in process
 
 ## License
 

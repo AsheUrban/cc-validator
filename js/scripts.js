@@ -9,15 +9,30 @@ function multiply(number1, number2) {
 	return number1 * number2; 
 }
 
+// v-1
 
 function ccValidator(ccNum) {
-  let creditCard = ccNum.split(" ");
+  let creditCard = ccNum.split("");
   const creditCardNum = parseInt(creditCard);
   let doubledNumbers = [];
   for (let index = 0; index <= creditCardNum.length; index +=2) {
     doubledNumbers.push(creditCardNum[index] * 2);
   }
+  return doubledNumbers;
 }
+
+// v-2
+
+function ccValidator(ccNum) {
+  let creditCard = ccNum.split(" ");
+  console.log(creditCard);
+  let doubledNumbers = [];
+  for (let index = 0; index <= parseInt(creditCard).length; index +=2) {
+    doubledNumbers.push([index] * 2);
+  }
+  return doubledNumbers;
+}
+
 
 // let total = 0;
 // const summands = [1, 2, 3, 4, 5];

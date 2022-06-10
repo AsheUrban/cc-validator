@@ -13,10 +13,9 @@ function multiply(number1, number2) {
 
 function ccValidator(ccNum) {
   let creditCard = ccNum.split("");
-  const creditCardNum = parseInt(creditCard);
   let doubledNumbers = [];
-  for (let index = 0; index <= creditCardNum.length; index +=2) {
-    doubledNumbers.push(creditCardNum[index] * 2);
+  for (let index = 0; index < creditCard.length; index +=2) {
+    doubledNumbers.push(parseInt(creditCard[index]) * 2);
   }
   return doubledNumbers;
 }
@@ -32,6 +31,7 @@ function ccValidator(ccNum) {
   }
   return doubledNumbers;
 }
+
 
 
 // let total = 0;
